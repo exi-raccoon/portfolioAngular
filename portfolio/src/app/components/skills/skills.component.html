@@ -1,1 +1,10 @@
-<p>skills works!</p>
+<div class="d-flex flex-column justify-content-center margin">
+    <div class="mx-auto">
+        <h2>SKILLS</h2>
+    </div>
+
+    <div class="row skillbox">
+        <app-cards-skills *ngFor="let skilldata of cardskills" [skilldata]="skilldata" class="col col-sm-6 p-2"></app-cards-skills>
+    </div>
+</div>
+<router-outlet></router-outlet>

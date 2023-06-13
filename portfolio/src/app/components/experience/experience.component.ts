@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./experience.component.scss']
 })
 export class ExperienceComponent {
-
+  cardsexperience:string[]=["Première expérience","Deuxième expérience","Troisième expérience"];
 }

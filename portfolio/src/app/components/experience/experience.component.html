@@ -1,1 +1,8 @@
-<p>experience works!</p>
+<div class="d-flex flex-column justify-content-center">
+    <div class="mx-auto">
+        <h2>EXPERIENCE</h2>
+    </div>
+    <div class="d-flex justify-content-center" *ngFor="let experiencedata of cardsexperience">
+        <app-cards-experience [experiencedata]="experiencedata"></app-cards-experience>
+    </div>
+</div>
